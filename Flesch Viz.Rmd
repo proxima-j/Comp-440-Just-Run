@@ -13,10 +13,12 @@ knitr::opts_chunk$set(echo = TRUE,warning = FALSE, message =FALSE)
 library(tidyverse)
 library(dplyr)
 library(ggthemes)
+library(plotly)
 ```
 
 ```{r}
 paragraph <- read_csv("all_articles.csv")
+article <- read_csv("articles_metircs.csv")
 ```
 
 ```{r,fig.height=5,fig.width=10}
@@ -89,3 +91,83 @@ boxplot <- paragraph %>%
 
 boxplot
 ```
+
+```{r}
+blog<- article %>% 
+  mutate(generator = substring(id,3,3)) %>% 
+  mutate(iid = substring(id,2,2)) %>% 
+  filter(substring(id,1,1)== "b") %>% 
+  ggplot(aes(x = iid,
+           y = `Standard Deviation`,
+           fill = generator, text = paste("Paragraph Number:",`Paragraph Number`))) +
+  geom_bar(stat = "identity",
+           position = "dodge")+
+  theme_light()+
+  labs(title = "blog",
+       x = "",
+       y = "Standard Deviation")+
+  theme(plot.title = element_text(size = 14,hjust = 0.5,color = "#414141"),
+        axis.text.x.bottom = element_text(size = 14),
+        axis.text.y= element_text(size = 8),
+        axis.title.y = element_text(size = 12),
+        legend.text = element_text(size = 8,color = "#414141"),
+        legend.title = element_text(size = 14, color = "#414141")) 
+```
+
+```{r}
+ggplotly(blog) 
+```
+
+
+```{r}
+exam<- article %>% 
+  mutate(generator = substring(id,3,3)) %>% 
+  mutate(iid = substring(id,2,2)) %>% 
+  filter(substring(id,1,1)== "e") %>% 
+  ggplot(aes(x = iid,
+           y = `Standard Deviation`,
+           fill = generator, text = paste("Paragraph Number:",`Paragraph Number`))) +
+  geom_bar(stat = "identity",
+           position = "dodge")+
+  theme_light()+
+  labs(title = "Exam",
+       x = "",
+       y = "Standard Deviation")+
+  theme(plot.title = element_text(size = 14,hjust = 0.5,color = "#414141"),
+        axis.text.x.bottom = element_text(size = 14),
+        axis.text.y= element_text(size = 8),
+        axis.title.y = element_text(size = 12),
+        legend.text = element_text(size = 8,color = "#414141"),
+        legend.title = element_text(size = 14, color = "#414141"))
+```
+```{r}
+ggplotly(exam)
+```
+
+```{r}
+news<- article %>% 
+  mutate(generator = substring(id,3,3)) %>% 
+  mutate(iid = substring(id,2,2)) %>% 
+  filter(substring(id,1,1)== "n") %>% 
+  ggplot(aes(x = iid,
+           y = `Standard Deviation`,
+           fill = generator)) +
+  geom_bar(stat = "identity",
+           position = "dodge")+
+  theme_light()+
+  labs(title = "News",
+       x = "",
+       y = "Standard Deviation")+
+  theme(plot.title = element_text(size = 14,hjust = 0.5,color = "#414141"),
+        axis.text.x.bottom = element_text(size = 14),
+        axis.text.y= element_text(size = 8),
+        axis.title.y = element_text(size = 12),
+        legend.text = element_text(size = 8,color = "#414141"),
+        legend.title = element_text(size = 14, color = "#414141"))
+```
+
+```{r}
+ggplotly(news)
+```
+
+
