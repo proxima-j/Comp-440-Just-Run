@@ -24,8 +24,9 @@ boxplot <- paragraph %>%
   filter(prompt  == "news")%>% 
   mutate(iid = substring(id,2,2)) %>% 
   ggplot() +
-  aes(x = iid, y = `Flesch Score`, fill = generator, color = generator) +
-  geom_boxplot(varwidth =  TRUE) +
+  aes(x = iid, y = `Flesch Score`, fill = NULL, color = generator) +
+  geom_boxplot(varwidth =  TRUE,outlier.shape = NA) +
+  geom_point(position=position_jitterdodge(dodge.width = 0.8),size = 5, alpha = 0.5) +
   scale_fill_brewer(palette = "Set2",name = "States")+
   scale_color_brewer(palette = "Set2",name = "States")+
   theme_light()+
