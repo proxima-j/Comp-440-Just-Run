@@ -1,0 +1,90 @@
+---
+title: "Flesch"
+author: "Rita Li"
+date: "2023-05-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,warning = FALSE, message =FALSE)
+```
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(ggthemes)
+```
+
+```{r}
+paragraph <- read_csv("all_articles.csv")
+```
+
+```{r,fig.height=5,fig.width=10}
+boxplot <- paragraph %>% 
+  filter(prompt  == "news")%>% 
+  mutate(iid = substring(id,2,2)) %>% 
+  ggplot() +
+  aes(x = iid, y = `Flesch Score`, fill = generator, color = generator) +
+  geom_boxplot(varwidth =  TRUE) +
+  scale_fill_brewer(palette = "Set2",name = "States")+
+  scale_color_brewer(palette = "Set2",name = "States")+
+  theme_light()+
+  labs(title = "news",
+       x = "",
+       y = "Flesch Score")+
+  theme(plot.title = element_text(size = 18,hjust = 0.5,color = "#414141"),
+        axis.text.x.bottom = element_text(size = 18),
+        axis.text.y= element_text(size = 12),
+        axis.title.y = element_text(size = 16),
+        legend.text = element_text(size = 12,color = "#414141"),
+        legend.title = element_text(size = 18, color = "#414141"))
+
+boxplot
+```
+
+```{r,fig.height=5,fig.width=10}
+boxplot <- paragraph %>% 
+  filter(prompt  == "blog")%>% 
+  mutate(iid = substring(id,2,2)) %>% 
+  ggplot() +
+  aes(x = iid, y = `Flesch Score`, fill = generator,color = generator) +
+  geom_boxplot(varwidth =  TRUE) +
+  scale_fill_brewer(palette = "Set2",name = "States")+
+  scale_color_brewer(palette = "Set2",name = "States")+
+  theme_light()+
+  labs(title = "Blog",
+       x = "",
+       y = "Flesch Score")+
+  theme(plot.title = element_text(size = 18,hjust = 0.5,color = "#414141"),
+        axis.text.x.bottom = element_text(size = 18),
+        axis.text.y= element_text(size = 12),
+        axis.title.y = element_text(size = 16),
+        legend.text = element_text(size = 12,color = "#414141"),
+        legend.title = element_text(size = 18, color = "#414141"))
+
+boxplot
+```
+
+
+```{r,fig.height=5,fig.width=10}
+boxplot <- paragraph %>% 
+  filter(prompt  == "exam")%>% 
+  mutate(iid = substring(id,2,2)) %>% 
+  ggplot() +
+  aes(x = iid, y = `Flesch Score`, fill = generator, color = generator) +
+  geom_boxplot(varwidth =  TRUE) +
+  scale_fill_brewer(palette = "Set2",name = "States")+
+  scale_color_brewer(palette = "Set2",name = "States")+
+  theme_light()+
+  labs(title = "Exam",
+       x = "",
+       y = "Flesch Score")+
+  theme(plot.title = element_text(size = 18,hjust = 0.5,color = "#414141"),
+        axis.text.x.bottom = element_text(size = 18),
+        axis.text.y= element_text(size = 12),
+        axis.title.y = element_text(size = 16),
+        legend.text = element_text(size = 12,color = "#414141"),
+        legend.title = element_text(size = 18, color = "#414141"))
+
+boxplot
+```
