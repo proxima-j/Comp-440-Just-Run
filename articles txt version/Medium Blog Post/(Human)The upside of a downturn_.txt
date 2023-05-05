@@ -1,0 +1,64 @@
+The upside of a downturn.
+
+The boom times of the last decade are unambiguously over.
+
+No single metric shows the magnitude of the current downturn more than the dramatic retreat in revenue multiples for technology businesses. Witness, for example, the rise and fall of AMZN in the dot-comm bubble vs. SHOP in the last year. AMZN declined from ~55x trailing revenues to ~1x, while the latter is currently in free fall from ~71x trailing revenues to ~7x — an all-time low:
+
+These eerily similar graphs remind us of past corrections — namely, the financial crisis of 2008–2009, the dot-com bubble burst of 2000–2002, and the Black Monday crash of 1987. Compared to these corrections, the current crisis shares some pathologies (e.g. speculative asset bubbles, Fed rate hikes), but others are novel (e.g. post-COVID headwinds, war in Ukraine, supply chain disruptions, ETF outflows). Each of these periods created prolonged and dramatic valuation downturns that culled the herd of startups, forcing significant changes across the tech industry.
+
+Stay optimistic.
+In situations like these, the public narrative shifts negative fast and hard. Watching your stock portfolio fall by 3–5% week-over-week is paralyzing. Schadenfreude has set in for companies that raised capital at nosebleed valuations and recklessly spent it all as the market careened off a cliff.
+
+Supposedly “founder friendly” investors, many of whom have only ever seen a bull market, are now having their first truly difficult conversations with CEOs. Fast-moving, late stage pools of capital, supposedly on a mission to “disrupt” venture capital just a few years ago, are now watching their positions shrink in value by 40–50% in less than a year, eradicating decades of compounded gains.
+
+Despite the visible market carnage, our bias at Lightspeed points in the direction of optimism. Progress in technology carries forward steadfastly throughout all market cycles. More business workflows will be digitized. More enterprise infrastructure will move to the cloud. More consumers and SMBs will come online globally. Web3, AR/VR, AI/automation, and more are all in early innings.
+
+To be clear, the road ahead will be hard. Many CEOs will make painful decisions in order to keep their companies afloat in choppy waters. Some will face tradeoffs that only a few months ago would have seemed outlandish or unnecessary. We see a silver lining, however, when hard decisions present themselves.
+
+Don’t let a good crisis go to waste.
+Dara Khosrowshahi, CEO of UBER, sent an all-hands email that resonated with the shifting priorities in this time of crisis:
+
+History has taught us that CEOs who are decisive now and make critical changes to their businesses will emerge in a stronger position when markets normalize once again. We recognize these decisions may not be familiar or easy. As such, we’ve compiled a few examples of ways companies in our portfolio have improved their businesses during past crises.
+
+Revise your assumptions on talent.
+During the last few years, acquiring and retaining talent has been incredibly frustrating. As valuations ascended, companies threw bigger and more attractive packages at candidates, creating a competitive flywheel that made it harder for smaller, less well known companies to compete. Retention became challenging as employees started to realize they could hit their 1-year cliffs and move onto a new company at a higher water mark in compensation.
+
+Overall, people costs across our portfolio swole rapidly to accommodate this new normal, and CEOs brushed it under the rug as long as they could raise more capital at inflated prices to fuel the talent war.
+
+Today’s downturn not only affords CEOs the ability to hit the reset button on accelerating compensation; it also allows them to reduce the pace of hiring, focus more on quality, and gain access to people who weren’t necessarily “recruitable” before. Where necessary, CEOs can rationalize headcount and refocus their company’s culture around performance.
+
+Cut non-essential activities.
+Companies flush with cash have an endless list of ways to spend it. Whether testing new marketing channels, hiring new engineers to build a product extension, or entering a new geography, all these ideas look sound when the core business is performing and capital is cheap. If the constrained resource is management’s bandwidth, however, all these new initiatives necessitate that its attention is divided. Rare is the early stage company with enough entrepreneurial leaders to execute on more than a few initiatives at once.
+
+A downturn forces the decision to cut these non-essential activities. We encourage CEOs to truly reflect on what is the core “need to believe” for the business. When prioritizing among various initiatives, we encourage you to think along multiple, orthogonal axes like the below and build a custom framework for your business:
+
+To what extent does this initiative move your north star metric?
+What is its degree of difficulty?
+What is the size of the potential payoff and what is the requisite investment level? Over what time horizon?
+Is the opportunity perishable or non-perishable?
+Do you have the capabilities in house, or does it require a new competency to be built?
+Do we understand how to model its success or failure, and what are the input metrics we should track?
+Hone your business model.
+In normal markets, it is common for CEOs to “trade profitability for growth.” Particularly in consumer commerce businesses, where goods have high elasticity of demand, lowering prices can juice growth. Enterprise businesses will often invest in sales, marketing, and support ahead of expected growth. During times when capital is seeking growth above all else, startups often “kick the can down the road” on profitability by playing with pricing, discounts, and all sorts economic tools.
+
+The challenge with this approach is it delays the discovery of a business model. Ultimately it’s very challenging to underwrite growth without a strong point of view on a company’s unit economic formula, what its drivers are, and how to improve them over time. In a capital constrained environment, companies will necessarily focus on the input metrics of good unit economics as a matter of survival. Investors simply won’t underwrite later stage companies in these kind of markets who have not done this critical work.
+
+Consolidate your lead.
+Cheap capital environments create all sorts of FOMO around winning in a market. That means companies will out-spend, out-discount, and out-maneuver each other to acquire users. Organizations take on all sorts of operational debt by expanding too quickly and competing on too many fronts. Every battle seems existential in these types of environments.
+
+When the market cools off, however, everyone retrenches. They figure out what’s strategic, and what can be left behind. It’s often in these environments that canny players (often the most dominant ones) can start to consolidate a market that would have otherwise been competitive to an unhealthy degree. M&A is much easier when competitors are cash constrained, and nobody wants to fight it out.
+
+Survive before you thrive.
+Hard decisions like these will likely produce slower growth in the near term. Our recommendation is to achieve a “default alive” state within the next 6 months that you can use to ride out the storm. Paul Graham of YC puts it eloquently in the post where he originally coined this phrase:
+
+Instead of starting to ask too late whether you’re default alive or default dead, start asking too early. It’s hard to say precisely when the question switches polarity. But it’s probably not that dangerous to start worrying too early that you’re default dead, whereas it’s very dangerous to start worrying too late.
+
+The reason is a phenomenon I wrote about earlier: the fatal pinch. The fatal pinch is default dead + slow growth + not enough time to fix it. And the way founders end up in it is by not realizing that’s where they’re headed.
+
+There is another reason founders don’t ask themselves whether they’re default alive or default dead: they assume it will be easy to raise more money. But that assumption is often false, and worse still, the more you depend on it, the falser it becomes.
+
+After the last few years, the most jarring mindset shift that CEOs must endure is that they can no longer depend on more money to cover up problems. The money may, in fact, materialize; but we don’t recommend planning on it for 2022, or even for 2023.
+
+While growth may slow in the near term, the good news is that future investors will not fault you for dialing back your ambitions temporarily to shore up the business. Those companies that use this time to strengthen their fundamentals will be rewarded by their customers and the financial markets in due time.
+
+Lastly, recall that some of the most valuable companies of the last generation (e.g. ABNB, NET, SNAP*, UBER) were started in the years following the 2008 financial crisis. The journey for some of these companies was long and arduous, but ultimately the downturn proved to be a formative crucible.

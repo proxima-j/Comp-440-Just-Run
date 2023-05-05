@@ -1,0 +1,17 @@
+AR & VR & MR Technology Trends Review
+
+Augmented Reality (AR), Virtual Reality (VR), and Mixed Reality (MR) technologies are rapidly advancing and have become increasingly popular over the years. In this article, we will review the latest trends in AR, VR, and MR.
+
+AR Technology Trends
+AR is moving to the browser mode. Users are not willing to download specialized AR apps. The integration of AR technology into web browsers enables users to access AR content without the need for additional software. Apple's ARKit and Google's ARCore are the two main technologies for AR development. ARKit provides advanced features such as plane detection, face tracking, and world mapping, while ARCore has a wider range of supported devices.
+
+VR Technology Trends
+VR technology has reached the level of zero motion sickness. In the past, VR users experienced motion sickness due to the lag between head movement and image display. The latest headsets, such as the Oculus Quest 2 and HTC Vive Pro 2, are comparatively cheap and provide a high refresh rate, low latency, and high-resolution displays. These advancements in VR hardware guarantee a low probability of motion sickness, making it a more comfortable and enjoyable experience for users.
+
+MR Technology Trends
+The MR market is waiting for an innovative and affordable device that can provide an immersive experience. Currently, MR is mostly accessible through expensive headsets such as the HoloLens and Magic Leap. However, the Meta Quest 2 provides a black and white Passthrough mode that covers the whole field of view, bringing users closer to the mixed reality experience. In 2022, Meta released the Meta Quest Pro headset with a colorful Passthrough and facial expression tracking camera that allows avatars to convey emotions.
+
+Conclusion
+In conclusion, the latest trends in AR, VR, and MR are exciting and continue to evolve. The move towards AR technology in the browser mode, zero motion sickness in VR, and the development of affordable MR headsets provide users with an enhanced experience. As these technologies continue to advance, we can expect to see even more exciting innovations in the near future.
+
+

@@ -1,0 +1,50 @@
+﻿AR & VR & MR Technology Trends Review
+
+Extended reality is going to be our next environment for life and work after the web is done. XR is developing as we speak, so we still have time to catch up with the innovation and find a way to use it for our own benefit. To be more specific, what are potential sources of benefit new technologies can bring to your business?
+
+Innovation may replace old & costly tools
+It makes sense to implement new technologies if they cut production costs, enhance work processes or enable us to achieve new results.
+
+Innovation may cause PR buzz
+If you have an impressive case featuring a brand new technology, it will give your company a solid reputation boost.
+
+Innovation provides you with a competitive advantage.
+If you’re the first to work with something the whole world talks about, you’re most likely to get ahead of your competition when this new technology becomes a standard practice.
+
+As for JetStyle, we do our best to pioneer in new market niches for the same reasons listed above, and also because 1) expertise in innovations boosts our HR brand, 2) we are true IT & tech geeks, always inspired to try something new.
+
+Since we’re aware of the new tech trends and are equipped with the top-notch XR gadgets, we’ve compiled a comprehensive review of what’s happening in the world of AR, VR, MR. Let’s start with AR!
+
+Who’s who in augmented reality?
+The core trend is that AR is switching into browser mode. A smartphone is a universal belonging these days, so AR is becoming more available for anyone. Corporations are increasing their investment in AR, and we’re witnessing a higher number of AR content creators, mostly for entertainment and advertising purposes.
+
+There are two main technologies for AR development: ARKit by Apple and ARCore by Google. Both are great, however, Apple’s ARKit seems to prevail in its quality and set of features. Google’s kit is a multiplatform one, so it’s more widespread and popular.
+
+Both kits provide the API for standalone apps. Previously we used Vuforia for those purposes, but now it’s mostly a corporate segment app with no web version. Vuforia is no longer oriented for the needs of ordinary customers.
+
+Apparently, today’s users are not willing to download specialized AR apps. That’s why ARKit and ARCore are developing towards WebAR technology, or browser AR. With WebAR, users simply need to follow a link and point their smartphone cameras at the AR marker. It works like a charm for all relatively new Androids and IPhones. The key Web AR provider is 8wall, and there are increasingly more new names in the market.
+
+Current State of VR
+The most relevant goal VR has to achieve these days is higher mass adoption. As for today, the hardware has reached the level of zero motion sickness, and the latest headsets are comparatively cheap. Let’s look into the history of VR development:
+
+Do you remember the times when VR was exclusively for geeks? Until recently, the headsets were wired and they required computers with super-powerful gaming video cards. A headset was pretty costly (approximately $500–600), and so were gaming computers; moreover, it could take you up to 10 minutes to untangle all the wires and prepare the tracking zone. A swift transition between the real and virtual worlds was only in our imagination; lack of smoothness was a barrier for further development of VR.
+
+In 2019 we welcomed Oculus Quest, a wireless headset that cost $300 and worked with no extra hardware. Oculus Quest pioneered in promoting virtual reality to the general audience.
+
+Oculus Quest 2, today’s Meta Quest 2, has improved its consumer appeal and has become the world’s first consumer VR headset. It has smooth hand tracking, amazing display quality, high resolution and fast Wi-Fi connection. It costs about $400, but possesses much cooler features and looks like a perfect compromise between quality and cost. Quest 2 is in the final stage of its life cycle, as we’re looking forward to Meta Quest 3 release, which, rumor has it, is expected in fall of 2023.
+
+The modern hardware guarantees really little probability of motion sickness. The problem that remains is locomotion in VR. If you use body- and head tracking and move simultaneously in VR and real space, then your brain is fine with it. It’s much harder for the vestibular system to adapt if movement trajectories in both realities differ a lot. Or, if you fly or move along curved trajectories in VR, while sitting in reality. Sometimes it takes much time to get trained for this sensory gap.
+
+We’ve tested our VR games with a lot of users, and have come up with our own solution to this problem. Now, when we create experiences for VR, we try to avoid aggressive locomotion and look for alternative customized ways to move in the player space.
+
+MR: Breakthrough In Progress
+The MR market is waiting for an innovative and affordable device capable of providing a truly immersive experience.
+
+As for now, there isn’t anything like this available for common use. The picture quality delivered by the existing hardware is often insufficient, and the MR field of view is still very much limited: e.g. the first Magic Leap’s field of view was the size of a post stamp.
+
+As for today’s hardware inventions, we are amazed at the Passthrough mode that Meta Quest 2 provides. It’s black and white, but it covers the whole field of view, so it brings you closer to what you expect from Mixed reality.
+
+In 2022, Meta released the Meta Quest Pro headset with a colorful Passthrough and facial expressions tracking camera that allows your avatar to convey your emotions. The Pro version is more expensive than the usual one, however, it sets the bar higher for developers to finally work on a device that is powerful, comfortable and affordable at the same time.
+
+When advanced MR headsets arrive in the market, we’ll definitely enter a new technological era. Production studios will need to prove the effectiveness of MR in cases and make it a standard practice. By the way, JetStyle is already doing that: we’ve combined the best features of the existing equipment and created a MR app for learning salsa.
+

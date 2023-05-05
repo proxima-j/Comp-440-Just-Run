@@ -1,0 +1,32 @@
+﻿How Will the CryptoFlix Film Market Place Work?
+
+There have been some questions about how the CRYPTOFLIX Film Marketplace will work and what types of projects we expect to see. Also, there seems to be a belief that major filmmakers and studios have enough money to finance films by themselves, so I just wanted to share some of the ideas and plans we have regarding this.
+
+First of all, financing a film or a TV series is not easy for most filmmakers, even for good ones. There seems to often be a gap of 15–20% which is typically financed by wealthy individuals or investment companies. Sometimes the last part is financed by banks or other specialized film financing sources. Very often there are many layers of financing and as these layers are in different positions when the income from the film starts to flow, there are different layers of risks and rewards involved.
+
+Our aim is to help top quality film producers, sales agents, distributors and other film industry players to achieve funding for their projects, while at the same time offer the FLIX token holders the opportunity to act as financiers to enable them to achieve a return on the transaction.
+
+In the White Paper we have used the example below:
+
+A renowned producer is seeking gap financing for an English language horror movie. The movie will star a cast of renowned, but not “A-List”, actors.
+
+Token holders can invest in the offered film projects with the returns and conditions offered in a term sheet. This will provide FLIX token holders with a unique opportunity to finance film projects, while fully aware of the risks and returns involved. The CRYPTOFLIX risk score will take into consideration the cast, the genre, the director, producer and key crew attached as well as other factors such as projected market penetration and income, which will serve as a guide for the token holder into the profitable world of film financing.
+
+Other examples of potential projects needing financing could be:
+
+A high quality independent film project, which unexpectedly attracts an A-List Actor to star. This happens and the producers will need to quickly find the extra financing to be able to cover the increased cost, which they are naturally willing to bear because the involvement of a star actor could hugely affect the financial outcome of a film.
+
+Or
+
+A distributor wants to pre-buy the rights to distribute a quality film and is looking for financing to be able to enter into an agreement with the sales agent before a film festival. A distributor is first in line to receive his/her share of the profits and the risk is different than that of the producer.
+
+Now finally regarding the investment process we will use Smart Contracts and internal 1:1 fiat pegged stable FilmCoins to avoid exposure to the potential fluctuations in the crypto currency prices.
+
+As a FLIX Token holder, you will have access to the CRYPTOFLIX Film Marketplace, where you will be able to see the projects you can invest in and their term sheets. When you invest in a project, CRYPTOFLIX will deposit your FLIX Tokens into a FilmCoin smart contract and you will receive 1:1 fiat pegged internal FilmCoins which represent your investment.
+
+If and when the film project is a success and recoups profits, the initial FLIX Tokens used as collateral is returned to your digital wallet, while the yield is given as internal FilmCoins.
+
+I personally think that this is a film financing platform which has a big potential. Please read the white paper on www.cryptoflix.io.
+
+I hope that helps.
+
