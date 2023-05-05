@@ -50,8 +50,9 @@ boxplot <- paragraph %>%
   filter(prompt  == "blog")%>% 
   mutate(iid = substring(id,2,2)) %>% 
   ggplot() +
-  aes(x = iid, y = `Flesch Score`, fill = generator,color = generator) +
-  geom_boxplot(varwidth =  TRUE) +
+  aes(x = iid, y = `Flesch Score`, fill = NULL, color = generator) +
+  geom_boxplot(varwidth =  TRUE,outlier.shape = NA) +
+  geom_point(position=position_jitterdodge(dodge.width = 0.8),size = 5, alpha = 0.5) +
   scale_fill_brewer(palette = "Set2",name = "States")+
   scale_color_brewer(palette = "Set2",name = "States")+
   theme_light()+
@@ -74,8 +75,9 @@ boxplot <- paragraph %>%
   filter(prompt  == "exam")%>% 
   mutate(iid = substring(id,2,2)) %>% 
   ggplot() +
-  aes(x = iid, y = `Flesch Score`, fill = generator, color = generator) +
-  geom_boxplot(varwidth =  TRUE) +
+  aes(x = iid, y = `Flesch Score`, fill = NULL, color = generator) +
+  geom_boxplot(varwidth =  TRUE,outlier.shape = NA) +
+  geom_point(position=position_jitterdodge(dodge.width = 0.8),size = 5, alpha = 0.5) +
   scale_fill_brewer(palette = "Set2",name = "States")+
   scale_color_brewer(palette = "Set2",name = "States")+
   theme_light()+
@@ -94,7 +96,8 @@ boxplot
 
 ```{r}
 blog<- article %>% 
-  mutate(generator = substring(id,3,3)) %>% 
+  mutate(generator = substring(id,3,3)) %>%
+  mutate(generator = ifelse(generator == "a", "AI", "Human")) %>% 
   mutate(iid = substring(id,2,2)) %>% 
   filter(substring(id,1,1)== "b") %>% 
   ggplot(aes(x = iid,
@@ -122,6 +125,7 @@ ggplotly(blog)
 ```{r}
 exam<- article %>% 
   mutate(generator = substring(id,3,3)) %>% 
+  mutate(generator = ifelse(generator == "a", "AI", "Human")) %>% 
   mutate(iid = substring(id,2,2)) %>% 
   filter(substring(id,1,1)== "e") %>% 
   ggplot(aes(x = iid,
@@ -147,6 +151,7 @@ ggplotly(exam)
 ```{r}
 news<- article %>% 
   mutate(generator = substring(id,3,3)) %>% 
+  mutate(generator = ifelse(generator == "a", "AI", "Human")) %>% 
   mutate(iid = substring(id,2,2)) %>% 
   filter(substring(id,1,1)== "n") %>% 
   ggplot(aes(x = iid,
