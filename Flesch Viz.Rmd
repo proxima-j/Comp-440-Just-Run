@@ -17,12 +17,12 @@ library(plotly)
 ```
 
 ```{r}
-paragraph <- read_csv("all_articles.csv")
-article <- read_csv("articles_metircs.csv")
+paragraph <- read_csv("datasets/all_articles.csv")
+article <- read_csv("datasets/articles_metircs.csv")
 ```
 
 ```{r,fig.height=5,fig.width=10}
-boxplot <- paragraph %>% 
+news <- paragraph %>% 
   filter(prompt  == "news")%>% 
   mutate(iid = substring(id,2,2)) %>% 
   ggplot() +
@@ -42,17 +42,19 @@ boxplot <- paragraph %>%
         legend.text = element_text(size = 12,color = "#414141"),
         legend.title = element_text(size = 18, color = "#414141"))
 
-boxplot
+news
+
+# ggsave("news_each.jpg",plot = news)
 ```
 
 ```{r,fig.height=5,fig.width=10}
-boxplot <- paragraph %>% 
+blog <- paragraph %>% 
   filter(prompt  == "blog")%>% 
   mutate(iid = substring(id,2,2)) %>% 
   ggplot() +
   aes(x = iid, y = `Flesch Score`, fill = NULL, color = generator) +
   geom_boxplot(varwidth =  TRUE,outlier.shape = NA) +
-  geom_point(position=position_jitterdodge(dodge.width = 0.8),size = 5, alpha = 0.5) +
+  geom_point(position=position_jitterdodge(dodge.width = 0.8),size = 4, alpha = 0.6) +
   scale_fill_brewer(palette = "Set2",name = "States")+
   scale_color_brewer(palette = "Set2",name = "States")+
   theme_light()+
@@ -66,12 +68,14 @@ boxplot <- paragraph %>%
         legend.text = element_text(size = 12,color = "#414141"),
         legend.title = element_text(size = 18, color = "#414141"))
 
-boxplot
+blog
+
+# ggsave("blog_each.jpg",plot = blog)
 ```
 
 
 ```{r,fig.height=5,fig.width=10}
-boxplot <- paragraph %>% 
+exam <- paragraph %>% 
   filter(prompt  == "exam")%>% 
   mutate(iid = substring(id,2,2)) %>% 
   ggplot() +
@@ -91,7 +95,9 @@ boxplot <- paragraph %>%
         legend.text = element_text(size = 12,color = "#414141"),
         legend.title = element_text(size = 18, color = "#414141"))
 
-boxplot
+exam
+
+# ggsave("Exam_each.jpg",plot = exam)
 ```
 
 ```{r}
@@ -118,7 +124,10 @@ blog<- article %>%
 ```
 
 ```{r}
-ggplotly(blog) 
+d <- ggplotly(blog)
+
+d
+# htmlwidgets::saveWidget(as_widget(d), "blog_all.html")
 ```
 
 
@@ -145,8 +154,11 @@ exam<- article %>%
         legend.title = element_text(size = 14, color = "#414141"))
 ```
 ```{r}
-ggplotly(exam)
+a <- ggplotly(exam)
+a
 ```
+
+
 
 ```{r}
 news<- article %>% 
@@ -172,7 +184,8 @@ news<- article %>%
 ```
 
 ```{r}
-ggplotly(news)
+c <- ggplotly(news)
+c
 ```
 
 
