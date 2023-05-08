@@ -10,7 +10,7 @@
 
 Research question: What kinds of articles would chatGPt better simulate human beings?
 
-[Click here](https://rita-li527.github.io/Comp440-JustRun/) to visit the result website. 
+[Click here](https://rita-li527.github.io/Comp440-JustRun/) to visit the result website and portfolio of the two project members. 
 
 ## Dataset
 
