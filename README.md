@@ -14,9 +14,9 @@ Research question: What kinds of articles would chatGPt better simulate human be
 
 ## Dataset
 
-`all_articles.csv` : Result from paragraph level FLESCH score analysis
-`articles_metrics.csv` : Result from article level FLESCH score analysis
-`BERT_cos_si.csv` : Result from BERT Method
+- `all_articles.csv` : Result from paragraph level FLESCH score analysis
+- `articles_metrics.csv` : Result from article level FLESCH score analysis
+- `BERT_cos_si.csv` : Result from BERT Method
 
 ## Files and Directories
 
